@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/button</item>
+    </style>
+    <style name="EditTextRegister">
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:layout_marginLeft">@dimen/dp_16</item>
+        <item name="android:layout_marginRight">@dimen/dp_16</item>
+        <item name="android:layout_marginBottom">@dimen/dp_16</item>
+    </style>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="roundedimageview_border_thickness" format="dimension"/>
+    </declare-styleable>
+
+    <style name="SmallIconStyle">
+        <item name="android:layout_marginLeft">@dimen/dp_16</item>
+        <item name="android:layout_marginRight">@dimen/dp_16</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="MineTextStyle">
+        <item name="android:textColor">@color/hint</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="textType">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dp_48</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="myEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/custom_edittext</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="MyTabLayoutText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:paddingTop">@dimen/dp_16</item>
+        <item name="android:paddingBottom">@dimen/dp_16</item>
+        <item name="android:textColor">@color/hint</item>
+    </style>
+
+
+</resources>

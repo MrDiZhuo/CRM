@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_conference_item_delegate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/title"
+    tools:context="com.zwd.crm.HomePage.conference.Controller.conferenceItemDelegate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+            android:id="@+id/item_conference_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="("
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/dark"
+            android:layout_marginLeft="@dimen/dp_16" />
+        <TextView
+            android:id="@+id/item_conference_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=")"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/dark"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/back"/>
+
+
+
+</LinearLayout>

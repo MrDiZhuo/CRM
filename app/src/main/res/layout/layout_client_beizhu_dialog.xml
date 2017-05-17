@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/dialog_client_beizhu_edit"
+        android:layout_height="@dimen/dp_120"
+        android:layout_width="match_parent"
+        android:hint="输入备注信息内容"
+        android:gravity="start"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:textSize="@dimen/sp_14"
+        android:padding="@dimen/dp_4"/>
+</LinearLayout>

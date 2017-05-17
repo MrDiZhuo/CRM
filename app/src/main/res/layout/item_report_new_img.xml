@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dp_64"
+        android:layout_height="@dimen/dp_64"
+        android:src="@mipmap/head"/>
+    <TextView
+        android:id="@+id/item_report_context_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张某"
+        android:textSize="@dimen/sp_14"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

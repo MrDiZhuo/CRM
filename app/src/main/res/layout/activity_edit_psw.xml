@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_psw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.zwd.crm.HomePage.editPwd.View.editPswActivity">
+    <com.zwd.crm.layout.layout_action_bar
+        android:id="@+id/edit_psw_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_editpsw_psw"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_below="@+id/edit_psw_action_bar"
+        style="@style/EditTextRegister"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp_14"
+        android:hint="请输入原密码"/>
+
+    <EditText
+        android:id="@+id/et_editpsw_new_psw"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_below="@+id/et_editpsw_psw"
+        style="@style/EditTextRegister"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp_14"
+        android:hint="请输入新密码"/>
+
+    <EditText
+        android:id="@+id/et_editpsw_hint_psw_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_below="@+id/et_editpsw_new_psw"
+        style="@style/EditTextRegister"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp_14"
+        android:hint="请确认密码"/>
+
+
+</RelativeLayout>

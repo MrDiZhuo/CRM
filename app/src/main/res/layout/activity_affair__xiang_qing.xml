@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_affair__xiang_qing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context="com.zwd.crm.HomePage.affairXiangQing.View.Affair_XiangQingActivity">
+
+
+    <com.zwd.crm.layout.layout_action_bar
+        android:id="@+id/affair__xiang_qing_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/title"
+                android:padding="@dimen/dp_16">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/affair__xiang_qing_img"
+                    android:layout_width="@dimen/dp_64"
+                    android:layout_height="@dimen/dp_64"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/dp_16">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/affair__xiang_qing_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textSize="@dimen/sp_14"
+                                    android:textColor="@color/dark"/>
+                                <TextView
+                                    android:id="@+id/affair__xiang_qing_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textSize="@dimen/sp_14"
+                                    android:textColor="@color/dark"
+                                    android:layout_marginLeft="@dimen/dp_16"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/affair__xiang_qing_inform"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="@dimen/sp_14"
+                            android:textColor="@color/dark"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+                    <TextView
+                        android:id="@+id/affair__xiang_qing_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="@dimen/sp_14"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_16"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_16">
+                        <TextView
+                            android:id="@+id/affair__xiang_qing_sure"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="@dimen/sp_14"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"/>
+                        <TextView
+                            android:id="@+id/affair__xiang_qing_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="@dimen/sp_14"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/title"
+                android:layout_marginTop="@dimen/dp_8"
+                android:padding="@dimen/dp_16">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已查看"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/dark"
+                    android:layout_marginBottom="@dimen/dp_16"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/back"/>
+                <TextView
+                    android:id="@+id/affair__xiang_qing_confirmusers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginTop="@dimen/dp_16"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未查看"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/dark"
+                    android:layout_marginTop="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_16"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/back"/>
+                <TextView
+                    android:id="@+id/affair__xiang_qing_noconfirmusers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginTop="@dimen/dp_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/title"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_8">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="回复"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/dark"
+                    android:layout_marginTop="@dimen/dp_16"
+                    android:layout_marginBottom="@dimen/dp_16"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/back"/>
+
+                <LinearLayout
+                    android:id="@+id/affair__xiang_qing_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/title"/>
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingBottom="@dimen/dp_8"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:background="@color/dark">
+                <TextView
+                    android:id="@+id/affair__xiang_qing_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="发送"
+                    android:textColor="@color/hint"
+                    android:textSize="@dimen/sp_14"/>
+                <EditText
+                    android:id="@+id/affair__xiang_qing_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/title"
+                    android:layout_toLeftOf="@id/affair__xiang_qing_send"
+                    android:padding="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:textSize="@dimen/sp_14"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

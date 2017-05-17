@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zwd.crm">
+
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="ebf0e12032c06cd4ee7e4d1c7c2c283c">
+            //开发者申请的key      
+        </meta-data>
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity android:name=".layout.TabViewPager" />
+        <activity
+            android:name=".HomePage.login.View.loginActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lidong.photopicker.PhotoPickerActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="com.lidong.photopicker.PhotoPreviewActivity" />
+        <activity
+            android:name=".HomePage.forgetPsw.View.forgetPswActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.register.View.registerActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.changeHeadImg.View.ChangeHeadActivity" />
+        <activity
+            android:name=".HomePage.editPwd.View.editPswActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.fullInfo.View.FullInfoActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.createBumen.View.CreateBumenActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.chengyuanList.View.chengYuanActivity" />
+        <activity android:name=".HomePage.chengyuan.View.ChengYuanInformActivity" />
+        <activity
+            android:name=".HomePage.adjust.View.AdjustBumenActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.xiugaiBuMen.View.XiuGaiBmActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.taskIntroduce.View.TaskIntroduceActivity" />
+        <activity android:name=".HomePage.taskXinxi.View.TaskXinXiActivity" />
+        <activity
+            android:name=".HomePage.apply.View.ApplyActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.addAffair.View.AddAffairActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.choosePerson.View.ChoosePersonActivity" />
+        <activity android:name=".HomePage.conferenceXiangqing.View.Conference_XiangqingActivity" />
+        <activity
+            android:name=".HomePage.conferenceXiuGai.View.Conference_XiuGaiActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.conferenceAdd.View.ConfereceAddActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.report.View.ReportActivity" />
+        <activity android:name=".HomePage.reportContext.View.report_ContextActivity" />
+        <activity android:name=".HomePage.reportContextRengwu.View.ReportContext_RengwuActivity" />
+        <activity
+            android:name=".HomePage.reportNew.View.ReportNewActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.reportContextLocation.Report_Context_LocationActivity" />
+        <activity android:name=".HomePage.reportContextPerson.View.Report_Choose_PersonActivity" />
+        <activity android:name=".HomePage.task.View.TaskActivity" />
+        <activity android:name=".HomePage.taskJiegou.View.Task_JiegouActivity" />
+        <activity
+            android:name=".HomePage.client.View.ClientActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.clientAdd.View.Client_AddActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.clientNewLink.View.Client_New_LinkActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.clientCiangQing.View.Client_Xiang_QingActivity" />
+        <activity
+            android:name=".HomePage.client_XiuGai.View.Client_Xiu_GaiActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".HomePage.affairXiangQing.View.Affair_XiangQingActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.bindPhone.View.Bind_PhoneActivity" />
+        <activity android:name=".HomePage.clientState.View.Client_StateActivity" />
+        <activity
+            android:name=".HomePage.taskAdd.View.TaskAddActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".HomePage.reportContentTaskXinxi.View.ReportContent_TaskXinxiActivity" />
+        <activity android:name=".HomePage.conferenceXiangQing_Task.View.ConferenceXiangQ_TaskActivity" />
+        <activity android:name=".HomePage.taskSon_XQ.View.TaskSon_XQActivity" />
+        <activity android:name=".HomePage.taskAdd_BumenLeader.View.TaskAdd_BmLeaderActivity" />
+        <activity android:name=".HomePage.taskAdd_QtLeader.View.TaskAdd_QTLeaderActivity"></activity>
+    </application>
+
+</manifest>

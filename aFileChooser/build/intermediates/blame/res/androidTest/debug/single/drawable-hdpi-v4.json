@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_chooser.png",
+        "source": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_chooser.png"
+    },
+    {
+        "merged": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_folder.png",
+        "source": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_folder.png"
+    },
+    {
+        "merged": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_file.png",
+        "source": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_file.png"
+    },
+    {
+        "merged": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_provider.png",
+        "source": "D:\\Android\\Project\\Me\\CRM\\aFileChooser\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_provider.png"
+    }
+]

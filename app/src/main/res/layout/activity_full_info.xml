@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_full_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.zwd.crm.HomePage.fullInfo.View.FullInfoActivity">
+    <com.zwd.crm.layout.layout_action_bar
+        android:id="@+id/full_info_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/full_info_action_bar"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_full_info_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            style="@style/EditTextRegister"
+            android:layout_marginTop="@dimen/dp_16"
+            android:textSize="@dimen/sp_14"
+            android:hint="用户昵称"  />
+
+        <EditText
+            android:id="@+id/et_full_info_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            style="@style/EditTextRegister"
+            android:textSize="@dimen/sp_14"
+            android:hint="微信号"/>
+
+        <EditText
+            android:id="@+id/et_full_info_alipay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            style="@style/EditTextRegister"
+            android:textSize="@dimen/sp_14"
+            android:hint="支付宝账号" />
+        <EditText
+            android:id="@+id/et_full_info_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            style="@style/EditTextRegister"
+            android:textSize="@dimen/sp_14"
+            android:hint="邮箱"  />
+        <EditText
+            android:id="@+id/et_full_info_user_tag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            style="@style/EditTextRegister"
+            android:textSize="@dimen/sp_14"
+            android:hint="个人标签"  />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

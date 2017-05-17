@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/title">
+    <TextView
+        android:id="@+id/child_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_14"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:padding="@dimen/dp_8"
+        android:text="业务组1"/>
+
+</LinearLayout>

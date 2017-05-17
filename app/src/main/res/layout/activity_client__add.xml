@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_client__add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context="com.zwd.crm.HomePage.clientAdd.View.Client_AddActivity">
+<com.zwd.crm.layout.layout_action_bar
+    android:id="@+id/client__add_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="客户名称    " />
+
+            <EditText
+                android:id="@+id/client__add_contractname"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="联系人        " />
+
+            <EditText
+                android:id="@+id/client__add_customname"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="联系人职位" />
+
+            <EditText
+                android:id="@+id/client__add_custompostion"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="联系人电话" />
+
+            <EditText
+                android:id="@+id/client__add_customphone1"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="客户邮箱    " />
+
+            <EditText
+                android:id="@+id/client__add_customemail"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/back" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48">
+
+            <TextView
+                style="@style/textType"
+                android:layout_width="wrap_content"
+                android:text="客户地址    " />
+
+            <EditText
+                android:id="@+id/client__add_customaddress"
+                style="@style/myEditText"
+                android:layout_marginLeft="@dimen/dp_8"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

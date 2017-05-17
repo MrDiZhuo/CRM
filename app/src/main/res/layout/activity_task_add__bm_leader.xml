@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_task_add__bm_leader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context="com.zwd.crm.HomePage.taskAdd_BumenLeader.View.TaskAdd_BmLeaderActivity">
+    <com.zwd.crm.layout.layout_action_bar
+        android:id="@+id/task_add__bm_leader_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/task_add__bm_leader_refresh">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/task_add__bm_leader_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <com.zwd.crm.widget.IndexBar
+            android:id="@+id/task_add__bm_leader_indexBar"
+
+            android:layout_width="24dp"
+
+            android:layout_height="match_parent"
+
+            android:layout_gravity="right"
+
+            app:pressBackground="@color/hint"
+            android:visibility="invisible"
+            app:textSize="@dimen/sp_12"  />
+
+
+
+
+
+        <TextView
+
+            android:id="@+id/task_add__bm_leader_tvSideBarHint"
+
+            android:layout_width="80dp"
+
+            android:layout_height="80dp"
+
+            android:layout_gravity="center"
+
+            android:background="@drawable/shape_side_bar_bg"
+
+            android:gravity="center"
+
+            android:textColor="@android:color/white"
+
+            android:textSize="48sp"
+
+            android:visibility="gone"
+
+            tools:text="A"
+
+            tools:visibility="visible" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

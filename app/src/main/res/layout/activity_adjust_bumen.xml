@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adjust_bumen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context="com.zwd.crm.HomePage.adjust.View.AdjustBumenActivity">
+    <com.zwd.crm.layout.layout_action_bar
+        android:id="@+id/adjust_bumen_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择部门"
+                android:textSize="@dimen/sp_14"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/dp_16"/>
+
+            <com.zwd.crm.widget.FloatingGroupExpandableListView
+                android:id="@+id/adjust_bumen_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:cacheColorHint="@color/hint"
+                android:childDivider="@color/back"
+                android:divider="@color/back"
+                android:dividerHeight="@dimen/dp_1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="部门角色"
+                android:textSize="@dimen/sp_14"
+                android:gravity="center_vertical"
+                android:layout_margin="@dimen/dp_16"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_48"
+                android:background="@color/title">
+
+                <TextView
+                    style="@style/textType"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:text="角色名称" />
+                <EditText
+                    android:id="@+id/adjust_bumen_edit_role"
+                    style="@style/myEditText"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_16"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_48"
+                android:background="@color/title"
+                android:layout_marginBottom="@dimen/dp_70">
+
+                <TextView
+                    style="@style/textType"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:text="角色类别" />
+                <EditText
+                    android:id="@+id/adjust_bumen_edit_roletype"
+                    style="@style/myEditText"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:layout_marginRight="@dimen/dp_16"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
